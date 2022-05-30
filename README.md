@@ -57,6 +57,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by:SYED MUHAMMED ZAHI
 RegisterNumber:21004029  
 ~~~ 
+~~~
 ## Multiplexer:
 module ex07(I0,I1,I2,I3,S0,S1,Y);
 input I0,I1,I2,I3,S0,S1;
@@ -82,6 +83,8 @@ and(Y1,I,S0c,S1);![image](https://user-images.githubusercontent.com/94187572/170
 and(Y2,I,S0,S1c);
 and(Y3,I,S0,S1);
 endmodule
+~~~
+
 ### OUTPUT:
 
 ### RTL LOGIC:
@@ -104,6 +107,7 @@ endmodule
 ## MULTIPLEXER:
 ![image](https://user-images.githubusercontent.com/94187572/170941218-b0c45bb0-e942-4d0d-a506-ea0f51af2477.png)
 ## DEMULTIPLEXER:
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/94187572/170960570-1c05257f-7ea4-4109-af9d-562eea9555d2.png)
+
 ### RESULTS:
 4 X1 multiplexer and 1X4 de multiplexer has been implemented using verilog and outputs are validated.
