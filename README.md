@@ -78,7 +78,7 @@ wire S0c,S1c;
 not(S0c,S0);
 nor(S1c,S1);
 and (Y0,I,S0c,S1c);
-and(Y1,I,S0c,S1);
+and(Y1,I,S0c,S1);![image](https://user-images.githubusercontent.com/94187572/170940764-57197101-b110-4a52-bc3f-a7d46df32e0c.png)
 and(Y2,I,S0,S1c);
 and(Y3,I,S0,S1);
 endmodule
@@ -92,7 +92,18 @@ endmodule
 
 
 ### TIMING DIAGRAM:
+##  MULTIPLEXER:
+![image](https://user-images.githubusercontent.com/94187572/170940719-f75eae2a-4cea-4a3b-9cc2-82572a17bd48.png)
+![image](https://user-images.githubusercontent.com/94187572/170940742-3c40d4f3-a5a1-42c1-aa7d-c412ff62212a.png)
+![image](https://user-images.githubusercontent.com/94187572/170940872-26a2a9e7-10bb-409e-a939-0ed59308cffb.png)
 
+##  DEMULTIPLEXER:
+![image](https://user-images.githubusercontent.com/94187572/170941165-a324a058-41c0-42d3-b30c-a64cd342407a.png)
 
-### TRUULTIPLEXER 
-### RESULTS 
+### TRUTH TABLE:
+## MULTIPLEXER:
+![image](https://user-images.githubusercontent.com/94187572/170941218-b0c45bb0-e942-4d0d-a506-ea0f51af2477.png)
+## DEMULTIPLEXER:
+![Uploading image.png…]()
+### RESULTS:
+4 X1 multiplexer and 1X4 de multiplexer has been implemented using verilog and outputs are validated.
